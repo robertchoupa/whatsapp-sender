@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const VERIFY_TOKEN = "mon_token_secret";
+const VERIFY_TOKEN = "whatsapp123";
 
 // 🔐 Vérification webhook (obligatoire Meta)
 app.get("/webhook", (req, res) => {
